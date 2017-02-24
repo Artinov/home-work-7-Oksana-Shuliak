@@ -251,15 +251,27 @@ color: #afafaf;
 
 .contact input {
 	width: 100%;
+  padding: 20px 20px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  outline: none;
+  border-top-color: #d2d1d1;
+}
+
+.contact textarea {
+    height: 200px;
+    width: 100%;
     padding: 20px 20px;
     font-size: 16px;
     border-style: solid;
-    border-width: 1px 0 0 0;
+    border-width: 1px 0 1px 0;
     outline: none;
-    border-top-color: #d2d1d1;
+    border-color: #d2d1d1;
 }
 
 .btn-success {
+    margin-top: 10px;
     background-color: #18bc9c;
     border-color: #18bc9c;
 }

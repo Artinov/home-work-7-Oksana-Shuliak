@@ -1,6 +1,6 @@
 		/* UNIVERSAL */
 .wrapper {
-	margin: 20px 22px;
+	
 }
 
 		/* NAVIGATION */
@@ -65,7 +65,7 @@ color: #afafaf;
   content: " ";
   display: block;
   height: 0;
-  border-top: 1px solid white;
+  border-top: 3px solid white;
   position: relative;
   top: 9.34px;
   z-index: 1;
@@ -115,7 +115,7 @@ color: #afafaf;
   content: " ";
   display: block;
   height: 0;
-  border-top: 1px solid black;
+  border-top: 3px solid black;
   position: relative;
   top: 9.34px;
   z-index: 1;
@@ -165,7 +165,7 @@ color: #afafaf;
   content: " ";
   display: block;
   height: 0;
-  border-top: 1px solid white;
+  border-top: 3px solid white;
   position: relative;
   top: 9.34px;
   z-index: 1;
@@ -208,17 +208,17 @@ color: #afafaf;
 		/* CONTACT ME */
 .contact {
 	margin-top: 60px;
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .contact .row {
-	text-align: center;
 	margin-right: 0;
 }
 
 .contact h1 {
 	font-size: 28px;
-    font-weight: bold;
+  font-weight: bold;
+  text-align: center;
 }
 
 .contact .parent {
@@ -228,13 +228,15 @@ color: #afafaf;
   color: black;
   margin-top: 10px;
   margin-bottom: 10px;
+  position: relative;
+  left: 40%;
 }
 
 .contact .parent:before {
   content: " ";
   display: block;
   height: 0;
-  border-top: 1px solid black;
+  border-top: 3px solid black;
   position: relative;
   top: 9.34px;
   z-index: 1;
